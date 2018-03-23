@@ -111,3 +111,21 @@ body {
   background-repeat: no-repeat; 
 }
 
+#logo-header {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo-container {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+
+#intuit-top-logo {
+  background-position: 0 0;
+  width: 118px;
+  height: 35px;
+
+}
