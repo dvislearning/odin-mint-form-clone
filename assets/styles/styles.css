@@ -71,11 +71,43 @@ body {
 }
 
 .log-in-text-container {
+  float: left;
   margin-left: 10px;
   text-align: right;
+}
+
+.sign-in-btn-container {
+  float: right;
+  margin-left: 10px;
 }
 
 #recovery-link {
   color: #0077c5;
   text-decoration: none;
 }
+
+#sign-in-button {
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  padding: 0 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.125em;
+  font-weight: normal;
+  height: 34px;
+  outline: none;
+  text-align: right;
+}
+
+.sign-in-lock {
+  background-image:  url("../images/sign-in-lock.png");
+  height: 1.5em;
+  width: 1.1em;
+  margin-right: 2px;
+  vertical-align: text-top;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat; 
+}
+
