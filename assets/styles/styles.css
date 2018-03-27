@@ -107,7 +107,6 @@ body {
   margin-right: 2px;
   vertical-align: text-top;
   display: inline-block;
-  background-size: contain;
   background-repeat: no-repeat; 
 }
 
@@ -127,5 +126,154 @@ body {
   background-position: 0 0;
   width: 118px;
   height: 35px;
-
 }
+
+#main-section-container {
+  display: block;
+  padding: 0;
+  margin: auto;
+}
+
+.sign-up-wrapper {
+  font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  border-radius: 3px;
+  margin: auto;
+  overflow: visible;
+  padding: 30px;
+  width: 330px;
+  height: 80%;
+  text-align: left; 
+}
+
+
+
+#three-logo-header {
+  padding-bottom: 4px;
+  border-bottom-style: solid;
+  border-bottom-width: 0;
+  border-bottom-color: transparent; 
+  text-align: center;
+  height: 80%;
+  width: 100%;
+  display: block;
+}
+
+
+.three-logo-list li:first-child {
+  margin-right: 9px;
+}
+
+ul {
+  text-align: center;
+  width: 100%;
+}
+
+.three-logo-list li {
+  display: inline;
+}
+
+
+.quickbooks-logo {
+  padding-right: 9px;
+}
+
+.signup-hr {
+  border-top: 1px solid #e2e1e1;
+  margin: 15px 0;
+}
+
+.header-container {
+  padding-bottom: 20px;
+}
+
+.upper-header {
+  font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;  
+  color: #4C4C4C;
+  line-height: 1.1;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.sub-header {
+  color: #4C4C4C;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+#learn-more-link {
+  color: #0077c5;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#sign-up-form {
+  font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.form-label {
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+  padding-bottom: 6px;
+  display: block;
+}
+
+.input-field {
+  padding-right: 37px;
+  border: 1px solid #C1C5C8;
+  border-radius: 3px;
+  line-height: 1.3em;
+  color: #000;
+  font-size: 1.2em;
+  width: 280px;
+  min-width: 160px;
+  padding-left: 8px;
+  height: 34px;
+}
+
+.input-field:focus {
+  border: 1px solid #52A8EC;
+  border-color: rgba(82,168,236,.8);
+  box-shadow: 0 1px 1px rgba(0,0,0,.075) inset,0 0 8px rgba(82,168,236,.6);
+}
+
+.main-form-fieldset {
+  padding-bottom: 25px;
+}
+
+#first-password-input {
+  background: url("../images/pw-lock.png") no-repeat;
+  background-position: 100% 50%  
+}
+
+.btn-container {
+  padding-bottom: 30px;
+}
+
+#create-button {
+  background: url("../images/create-lock-img.png") #0077C5 no-repeat;
+  background-position: 27% 58%;
+  border: #0077C5;
+  border-radius: 4px;
+  width: 100%;
+  height: 44px;
+  text-shadow: none;
+  font-size: 1.125em;
+  font-weight: 400;
+  color: #FFF;
+  line-height: 1.428571429;
+  cursor: pointer;  
+}
+
+
