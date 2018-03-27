@@ -187,7 +187,7 @@ ul {
 }
 
 .header-container {
-  padding-bottom: 20px;
+  padding-bottom: 0;
 }
 
 .upper-header {
@@ -249,7 +249,7 @@ ul {
 }
 
 .main-form-fieldset {
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 #first-password-input {
@@ -258,7 +258,7 @@ ul {
 }
 
 .btn-container {
-  padding-bottom: 30px;
+  padding: 15px 0 30px 0;
 }
 
 #create-button {
@@ -276,4 +276,26 @@ ul {
   cursor: pointer;  
 }
 
+#form-footer {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 15px;
+}
 
+.terms-of-use {
+  font-style: italic;
+  color: #bbb;
+}
+
+.form-footer-link {
+ color: #0077c5;
+ text-decoration: none; 
+}
+
+.main-section-footer {
+  color: #505050;
+  margin: auto;
+  font-size: 12px;
+  padding: 20px 0;
+  background-color: orange;
+}
