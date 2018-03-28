@@ -297,5 +297,41 @@ ul {
   margin: auto;
   font-size: 12px;
   padding: 20px 0;
-  background-color: orange;
+  display: block;
+}
+
+.bottom-logo {
+  background: url("../images/logo-bottom.png") no-repeat;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  width: 82px;
+  height: 35px;
+  position: relative;
+  left: 47%;
+}
+
+.licences-text {
+  text-align: center;
+  padding: 0 0 10px 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.footer-link-list li {
+  display: inline;
+  margin-right: 2px;
+}
+
+.footer-link-list li a {
+  color: #505050;
+  text-decoration: none;
+  padding-right: 8px;
+  font-size: 12px;
+}
+
+.copyright-message {
+  text-align: center;
 }
