@@ -123,15 +123,8 @@ body {
 }
 
 #intuit-top-logo {
-  background-position: 0 0;
   width: 118px;
   height: 35px;
-}
-
-#main-section-container {
-  display: block;
-  padding: 0;
-  margin: auto;
 }
 
 .sign-up-wrapper {
